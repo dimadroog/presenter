@@ -1,0 +1,15 @@
+AddDefaultCharset UTF-8
+RewriteEngine On
+
+DirectorySlash on
+Options -Indexes -MultiViews
+
+RewriteRule ^.*index.php/(.*) /$1 [R=301,L]
+
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php

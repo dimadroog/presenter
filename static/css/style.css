@@ -1,0 +1,257 @@
+.ml5{
+    margin-left: 5px;
+}
+.dn{
+    display: none;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.red{
+    border: 1px solid #f00;
+}
+.cp{
+    cursor: pointer;
+}
+
+/*///////////////////////////////////////*/
+body {
+    color: #414141;
+}
+
+.thumb {
+    height: 75px;
+    border: 1px solid #cccccc;
+}
+
+.thumb-result {
+    width: 100%;
+}
+
+.ruble{
+    font-size: 10px;
+}
+
+#fake-btn{
+    margin-top: 10px;
+}
+
+.size-span{
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    padding: 2px 8px;
+    cursor: pointer;
+    line-height: 1.8;
+}
+
+.size-span:hover{
+    /*color: #fff;*/
+    /*background-color: #2780e3;*/
+    border-color: #1967BE;
+}
+
+.size-class{
+    margin-top: 10px;
+}
+
+.help-block {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.cat-tem{
+    height: 28px;
+}
+
+.cat-page{
+    /*border: 1px solid #ccc;*/
+    padding: 3px;
+}
+/*.cat-page a{
+    text-decoration: none;
+}
+.cat-page:hover{
+    background: #ccc;
+}*/
+
+.bg-primary a{
+    color: #fff;
+}
+.bg-primary a:hover{
+    text-decoration: none;
+}
+
+
+.cat-head{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 3px;
+    margin-bottom: 10px;
+}
+
+
+.cat-icon{
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 3px 4px;
+    cursor: pointer;
+    font-size: 11px;
+    transition: 0.5s;
+}
+.cat-icon:hover{
+    color: #333;
+    border: 1px solid #333;
+    transition: 0.5s;
+}
+
+.size-icon{
+    color: #ccc;
+    /*border: 1px solid #ccc;*/
+    border-radius: 3px;
+    padding: 3px 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.size-icon:hover{
+    color: #333;
+    /*border: 1px solid #333;*/
+    transition: 0.5s;
+}
+
+
+.wait{
+    padding: 15px 0px;
+}
+
+.btn-sm {
+    line-height: 1.2;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+
+.container-fluid {
+    border-bottom: 1px solid #DDD;
+}
+
+.size-label{
+    float: left;
+    width:56px;   
+    font-weight: bold;
+    padding-top: 6px;
+}
+
+.size-inp{
+    margin: 3px 0;
+}
+
+.size-inp-showcase {
+    margin: 3px 0;
+    width: 150px;
+}
+.showcase{
+    border-left: 1px solid #ccc;
+}
+
+.text-danger, .btn-default, .btn-success{
+    transition: 0.5s;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 43px;
+    vertical-align: middle;
+    margin-left: 10px;
+    line-height: 0.5;
+}
+
+.price + .ruble {
+    color: #DEDEDE;
+    font-size: 23px;
+    margin-left: 5px;
+    vertical-align: -30%;
+}
+
+.small-cart{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    opacity:0.5;
+}
+
+.small-cart:hover{
+    opacity:1;
+}
+
+.middle-cart{
+    position: fixed;
+    right: 20px;
+    bottom: -1px;
+}
+
+.close{
+    font-size: 17px;
+}
+
+  @media screen and (min-width: 992px) {
+   .available:before {
+    content: 'Доступно: ';
+   }
+}
+
+.op1{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#error{
+    height: 10px;
+}
+
+.size-list{
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    padding: 0px 2px;
+    line-height: 1;
+    margin: 0 1px;
+    background: #fff;   
+}
+
+  .admin-thumb{
+    height: 23px;
+    width: 23px;
+    margin: -1px 0px;
+}
+
+/*scrolltop*/
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:50px;
+left:100px;
+display:none;
+text-indent:-9999px;
+background: url(../img/icon_top.png)  no-repeat;
+z-index:1111;
+}
+
+.scrollup:hover{
+opacity:0.6;
+}
+
+.table-report td, .table-report th{
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+.table-report th{
+    background: #f5f5f5;
+}
+.table-report table{
+    width: 100%;
+}
